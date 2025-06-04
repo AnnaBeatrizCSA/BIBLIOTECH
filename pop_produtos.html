@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Bibliotech</title>
+        <link href = "css/estiloPOPup.css" rel= "stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <main>
+            <div class="pop_up">
+                <h1 class="titulo-produto" id="nome-produto">TITULO</h1>
+                <img class ="imagemP" id="imagem-produto" src=""/>
+                <p class="descricaoP" id="descricao-produto">DESCRICAO</p>
+                <!--CAPTURA AS INFORMAÇOES DO PRODUTO-->
+                <script>
+                    function getParametro(dado){
+                     const urlParams = new URLSearchParams(window.location.search);
+                     return urlParams.get(dado);
+                    }
+
+                    //PREENCHE NA PAGINA AS INFORMAÇÕESS RECEBIDAS
+                    document.getElementById("nome-produto").textContent = getParametro("nome");
+                    document.getElementById("imagem-produto").src=getParametro("imagem");
+                    document.getElementById("descricao-produto").textContent=getParametro("descricao")
+                </script>
+            </div>
+        </main>
+    </body>
+</html>
