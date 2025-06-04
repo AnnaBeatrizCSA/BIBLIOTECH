@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BIBLIOTECH</title>
+    <link href="css/estiloContato.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script>
+        alert('Fale Conosco!');
+        //criar um alerta//
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class=".divHeader">
+            <!--LOGOTIPO-->
+            <img src="img/logo.png" title="Meu site" class="logo" />
+            <!--MENU-->
+            <nav>
+                <ul>
+                    <!--ITENS DO MENU-->
+                    <li><a href="index.html"><b>Home</b></a></li>
+                    <li><a href="produtos.html"><b>Produtos</b></a></li>
+                    <li><b>Contato</b></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Banner-->
+    <img src="img/rosa.png" class="Banner" />
+    <main>
+        <section class="Contato">
+            <form class="contato" id="frmContato">
+                <fieldset class="Contatoss">
+                    <legend class="titulo-dados">DADOS PESSOAIS</legend>
+                    <label>Nome completo</label>
+                    <input type="text" id="nome" required placeholder="Digite seu nome">
+
+                    <label>E-Mail</label>
+                    <input type="text" id="email" required placeholder="Digite seu E-Mail">
+
+                    <label>Telefone</label>
+                    <input type="text" id="telefone" required placeholder="( )00000-0000">
+
+                    <label>CPF</label>
+                    <input type="text" id="cpf" required placeholder="999.999.999-99">
+
+                    <label for="selecionaGenero">Gênero</label>
+                    <select id="selecionaGenero" required>
+                        <option>Selecione...</option>
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                        <option>Prefiro não informar</option>
+                        <option value="Outro">Outro</option>
+                    </select>
+
+                    <!-- SCRIPT PARA ESCREVER CASO O GÊNERO FOR OUTRO -->
+                    <input type="text" id="generoOutro" placeholder="Digite o gênero"
+                        style="display: none; margin-top: 10px;" required>
+
+
+
+
+                    <label for="motivoContato">Qual o motivo do seu contato?</label>
+                    <select id="motivoContato">
+                        <option>Selecione</option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="sugestao">Sugestão</option>
+                        <option value="elogio">Elogio</option>
+                        <option value="reclamacao">Reclamação</option>
+                    </select>
+
+                    <label>Mensagem</label>
+                    <textarea cols="70" rows="10"></textarea>
+                    <label>Como prefere o nosso contato?
+                        <input type="radio" name="contato">E-Mail
+                        <input type="radio" name="contato">Telefone
+                        <input type="radio" name="contato">WhatsApp
+                    </label>
+
+                    <script>
+                        const selecionaGenero = document.getElementById('selecionaGenero');
+                        const generoOutro = document.getElementById('generoOutro');
+
+                        selecionaGenero.addEventListener('change', function () {
+                            if (selecionaGenero.value === 'Outro') {
+                                generoOutro.style.display = 'block';
+                                generoOutro.required = true;
+                            } else {
+                                generoOutro.style.display = 'none';
+                                generoOutro.required = false;
+                                generoOutro.value = ''; // Limpa o campo caso troque a seleção
+                            }
+                        });
+                    </script>
+
+                    <label>
+                        <input type="checkbox">Gostaria de receber nossas novidades por e-mail?
+                    </label>
+
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+    <img src="img/logoo.png" alt="Bibliotech"class="logo_footer"/>
+    <p>Encomendas on-line: <a href="https://wa.me/5511941276364"><i class="fa fa-whatsapp"></i></a>(11)-94127-6364 | <a href="https://instagram.com/biaacasellato"><i class="fa fa-instagram"></i></a>@biaacasellato</p>
+   </footer>
+</body>
