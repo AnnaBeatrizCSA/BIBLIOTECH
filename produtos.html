@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>BIBLIOTECH</title>
+    <link href = "css/estiloProdutos.css" rel= "stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script> 
+        //alert('Conheça nossos produtos');
+         //criar um alerta//
+         //dia = new Array ("Domingo", "Segunda-Feira","Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado" );
+        // mes = new Array ("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro")
+         //data = new Date
+
+         //POP-UP  detalhes do produto
+         function abrirDetalhes (nome,imagem,descricao){
+           const url= `pop_produtos.html?nome=${encodeURIComponent(nome)}&imagem=${encodeURIComponent(imagem)}&descricao=${encodeURIComponent(descricao)}`;
+           window.open(url, "_blank", "width=600,height=600");
+          
+         }
+    </script>
+</head>
+<body>
+   <header>
+    <div class=".divHeader">
+        <!--LOGOTIPO-->
+        <img src="img/logo.png" title="Meu site" class="logo"/>
+        <!--MENU-->
+        <nav>
+            <ul>   
+                <!--ITENS DO MENU-->
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><b>Produtos</b></li>
+                <li><a href="contato.html"><b>Contato</b></a></li>
+                
+            </ul>
+        </nav>
+    </div>
+   </header>
+   <section class="Produtos">
+   <img src="img/rosa.png" class="Banner"/>
+  <section>
+        <h1 class="titulo_Mprodutos">PRODUTOS</h1>
+  </section>
+  <section class="banner-livraria">
+  <div class="container">
+    <h2>Descubra os melhores títulos na nossa BIBLIOTECH</h2>
+    <p>
+      Oferecemos uma seleção especial de livros físicos e eBooks, com lançamentos, best-sellers e clássicos da literatura.
+      Seja para estudar, se emocionar ou se inspirar, aqui você encontra o livro perfeito para cada momento.
+      Explore nossas categorias e receba seus produtos com conforto e praticidade!
+    </p>
+  </div>
+</section>
+
+ <!--<div class="container">
+    <div class="card">
+    <img src="img/caderno1.png" alt="produto 1">
+    <h2>Caderno Capricho</h2>
+    <p>Caderno Espiral Capa Dura Universitário Connect 1 Matéria Capricho 80 Folhas</p> 
+    <span class="preco">R$ 36,90</span>
+</div>
+    <div class="card">
+    <img src="img/caderno2.png" alt="produto 2">
+    <h2>Caderno Capricho</h2>
+    <p>Caderno Espiral Capa Dura Universitário Connect 1 Matéria Capricho 80 Folhas</p> 
+    <span class="preco">R$ 36,90</span>
+</div>
+    <div class="card">
+    <img src="img/caderno3.png" alt="produto 3">
+    <h2>Caderno Capricho</h2>
+    <p>Caderno Espiral Capa Dura Universitário Connect 1 Matéria Capricho 80 Folhas</p> 
+    <span class="preco">R$ 36,90</span>
+</div>
+    <div class="card">
+    <img src="img/caderno4.png" alt="produto 3">
+    <h2>Caderno Capricho</h2>
+    <p>Caderno Espiral Capa Dura Universitário Connect 1 Matéria Capricho 80 Folhas</p> 
+    <span class="preco">R$ 36,90</span>
+</div> -->
+
+<div class="container">
+  <script>
+      descLivroLagrimas = "O fenômeno internacional que inspirou o filme da Netflix – um romance proibido entre dois adolescentes que, ao serem adotados pela mesma família, são obrigados a lidar com um amor que pode arruiná-los. Nica cresceu em um orfanato e os contos de fada eram seu único conforto em meio aos terrores reais que assombravam os corredores da instituição. Agora que é adolescente, escolheu deixar as fantasias infantis para trás e focar no seu sonho de ser adotada. Mas, quando o sr. e a sra. Milligan adotam Nica, para a surpresa dela, também decidem acolher Rigel, um misterioso e inteligente garoto que nunca se deixou ser adotado… até agora. E, apesar de ambos compartilharem o mesmo passado, a convivência não será nada fácil ― ainda mais porque Rigel aproveita qualquer oportunidade para relembrá-la do quanto a despreza. Intenso e apaixonante,  O fabricante de lágrimas  é um sucesso com mais de um milhão de leituras no Wattpad e um fenômeno na Itália. Uma história tomada por emoções que vai fazer você prender a respiração em todos os capítulos. Esta obra foi traduzida com a contribuição do  Centro per il libro e la lettura , do Ministério da Cultura da Itália.";
+      descLivroAssimqueAcaba= "Considerado o livro do ano, que virou febre no TikTok e sozinho já acumulou mais de um milhão de exemplares vendidos no Brasil. É assim que acaba é o romance mais pessoal da carreira de Colleen Hoover, discutindo temas como violência doméstica e abuso psicológico de forma sensível e direta. Em É assim que acaba , Colleen Hoover nos apresenta Lily, uma jovem que se mudou de uma cidadezinha do Maine para Boston, se formou em marketing e abriu a própria floricultura. E é em um dos terraços de Boston que ela conhece Ryle, um neurocirurgião confiante, teimoso e talvez até um pouco arrogante, com uma grande aversão a relacionamentos, mas que se sente muito atraído por ela. Quando os dois se apaixonam, Lily se vê no meio de um relacionamento turbulento que não é o que ela esperava. Mas será que ela conseguirá enxergar isso, por mais doloroso que seja? É assim que acaba é uma narrativa poderosa sobre a força necessária para fazer as escolhas certas nas situações mais difíceis. Considerada a obra mais pessoal de Hoover, o livro aborda sem medo alguns tabus da sociedade para explorar a complexidade das relações tóxicas, e como o amor e o abuso muitas vezes coexistem em uma confusão de sentimentos.";
+      descLivroCorracao="Leah MacKenzie, de 17 anos, não tem coração. O que a mantém viva é um coração artificial que ela carrega dentro de uma mochila. Com seu tipo sanguíneo raro, um transplante é como um sonho distante. Conformada, ela tenta se esquecer de que está com os dias contados, criando uma lista de “coisas para fazer antes de morrer”. De repente, Leah recebe uma segunda chance: há um coração disponível! O problema é quando ela descobre que o doador é um garoto da sua escola – e que supostamente se matou! Matt, o irmão gêmeo do doador, se recusa a acreditar que Eric se suicidou. Quando Leah o procura, eles descobrem que ambos têm sonhos semelhantes que podem ter pistas do que realmente aconteceu a Eric. Enquanto tentam desvendar esse mistério, Matt e Leah se apaixonam e não querem correr o risco de perder um ao outro. Mas nem a vida nem um coração transplantado vem com garantias. Quem diria que viver exige mais coragem do que morrer?";
+      descOrgulho="Orgulho e Preconceito é um dos mais aclamados romances da escritora inglesa Jane Austen. Publicado em 1813, revela como era a sociedade da época, quando os relacionamentos se desenrolavam de maneira mais lenta e romântica, no ritmo das cartas levadas por mensageiros a cavalo. Nesse mundo, o sonho da Sra. Bennet era casar bem suas cinco filhas: Jane, Elizabeth, Mary, Kitty e Lydia. Entre as irmãs, destaca-se Elizabeth, a Lizzy, que se depara com um turbilhão de sentimentos diante do orgulho e preconceito que mascaram a realidade. Trata-se de um clássico que, mesmo após duzentos anos desde a sua primeira publicação, continua a encantar milhões de leitores ao redor do mundo.";
+      descImperfeicoes="Uma inesquecível história da rainha do drama Colleen Hoover, Todas as suas (im)perfeições fala sobre um casamento conturbado e uma promessa esquecida que pode ser capaz de salvá-lo. Todas as suas imperfeições narra a história de Quinn e Graham. Eles se conhecem no pior dia de suas vidas; ela chega mais cedo de uma viagem para surpreender o noivo, ele testemunha a traição da namorada. E é assim que ambos acabam no corredor de um prédio, trocando confidências, biscoitos da sorte e palavras de conforto. Fim da dança... se o destino não tivesse outros planos para os dois. Meses mais tarde, os acordes tocam para o casal mais uma vez e eles se reencontram. Graham está convencido de que são almas gêmeas. Quinn jamais se sentiu dessa forma antes. A intensidade do sentimento os assusta, mas eles mergulham de cabeça mesmo assim. O casamento é tudo o que sonhavam, a parceria perfeita. Mesmo nos momentos difíceis, sabem que podem contar com o outro. Nenhum deles desiste do amor que sentem. Até que a primeira nota dissonante abala a sinfonia do casal. Até que Quinn parece estar disposta a trocar tudo o que é pela única coisa que não consegue ser: mãe. A luta do casal por um filho arrisca os alicerces da relação. Quinn não pode engravidar. Graham não é um candidato para adoção por conta de um erro do passado. O impasse os deixa parados no salão, no silêncio. A orquestra está em suspenso. Os dois parecem surdos para a música do amor. Em Todas as suas imperfeições , Colleen coloca sua marca em mais uma obra comovente e inesquecível.";
+      descVerity="Verity Crawford é a autora best-seller por trás de uma série de sucesso. Ela está no auge de sua carreira, aclamada pela crítica e pelo público, no entanto, um súbito e terrível acidente acaba interrompendo suas atividades, deixando-a sem condições de concluir a história... E é nessa complexa circunstância que surge Lowen Ashleigh, uma escritora à beira da falência convidada a escrever, sob um pseudônimo, os três livros restantes da já consolidada série. Para que consiga entender melhor o processo criativo de Verity com relação aos livros publicados e, ainda, tentar descobrir seus possíveis planos para os próximos, Lowen decide passar alguns dias na casa dos Crawford, imersa no caótico escritório de Verity - e, lá, encontra uma espécie de autobiografia onde a escritora narra os fatos acontecidos desde o dia em que conhece Jeremy, seu marido, até os instantes imediatamente anteriores a seu acidente - incluindo sua perspectiva sobre as tragédias ocorridas às filhas do casal. Quanto mais o tempo passa, mais Lowen se percebe envolvida em uma confusa rede de mentiras e segredos, e, lentamente, adquire sua própria posição no jogo psicológico que rodeia aquela casa. Emocional e fisicamente atraída por Jeremy, ela precisa decidir: expor uma versão que nem ele conhece sobre a própria esposa ou manter o sigilo dos escritos de Verity? Em Verity , Colleen Hoover se afasta do estilo que a consagrou, os romances, para se aventurar em um suspense psicológico que deixou todo o mercado editorial sem palavras de tão avassalador. Através de uma narrativa perturbadora e chocante, Verity explora o lado mais sombrio das relações humanas deixando uma surpresinha chocante no final. Classificação indicativa: 18 anos. Aviso: Verity não vai derreter seu coração. Vai fritar sua alma.  Kindle Crack Distintamente sinistro, com um verdadeiro toque de [Colleen] Hoover. Estive esperando um thriller como esse por anos.  - Tarryn Fisher, coautora da série Nunca Jamais"
+      descharry1="Harry Potter é um garoto cujos pais, feiticeiros, foram assassinados por um poderosíssimo bruxo quando ele ainda era um bebê. Ele foi levado, então, para a casa dos tios que nada tinham a ver com o sobrenatural. Pelo contrário. Até os 10 anos, Harry foi uma espécie de gata borralheira: maltratado pelos tios, herdava roupas velhas do primo gorducho, tinha óculos remendados e era tratado como um estorvo. No dia de seu aniversário de 11 anos, entretanto, ele parece deslizar por um buraco sem fundo, como o de Alice no país das maravilhas, que o conduz a um mundo mágico. Descobre sua verdadeira história e seu destino: ser um aprendiz de feiticeiro até o dia em que terá que enfrentar a pior força do mal, o homem que assassinou seus pais. O menino de olhos verde, magricela e desengonçado, tão habituado à rejeição, descobre, também, que é um herói no universo dos magos. Potter fica sabendo que é a única pessoa a ter sobrevivido a um ataque do tal bruxo do mal e essa é a causa da marca em forma de raio que ele carrega na testa. Ele não é um garoto qualquer, ele sequer é um feiticeiro qualquer ele é Harry Potter, símbolo de poder, resistência e um líder natural entre os sobrenaturais. A fábula, recheada de fantasmas, paredes que falam, caldeirões, sapos, unicórnios, dragões e gigantes, não é, entretanto, apenas um passatempo."
+      descharry2="Depois de férias aborrecidas na casa dos tios trouxas, está na hora de Harry Potter voltar a estudar. Coisas acontecem, no entanto, para dificultar o regresso de Harry. Persistente e astuto, o herói não se deixa intimidar pelos obstáculos e, com a ajuda dos fiéis amigos Weasley, começa o ano letivo na Escola de Magia e Bruxaria de Hogwarts. As novidades não são poucas. Novos colegas, novos professores, muitas e boas descobertas e um grande e perigosos desafio. Alguém ou alguma coisa ameaça a segurança e a tranquilidade dos membros de Hogwarts."
+      descharry3="As aulas estão de volta à Hogwarts e Harry Potter não vê a hora de embarcar no expresso a vapor que o levará de volta à escola de bruxaria. Mais uma vez suas férias na rua dos Alfeneiros foi triste e solitária. Com muita ação, humor e magia, 'Harry Potter e o prisioneiro de Azkaban' traz de volta o gigante atrapalhado Rúbeo Hagrid, o sábio diretor Alvo Dumbledore, a exigente professora de transformação Minerva MacGonagall e o novo mestre Lupin, que guarda grandes surpresas para Harry."
+      descharry4="Nesta aventura, o feiticeiro cresceu e está com 14 anos. O início do ano letivo de Harry Potter reserva muitas emoções, mágicas, e acontecimentos inesperados, além de um novo torneio em que os alunos de Hogwarts terão de demonstrar todas as habilidade mágicas e nãomágicas que vêm adquirindo ao longo de suas vidas. Harry é escolhido pelo Cálice de Fogo para competir como um dos campeões de Hogwarts, tendo ao lado seus fiéis amigos. Muitos desafios, feitiços, poções e confusões estão reservados para Harry. Além disso, ele terá que lidar ainda com os problemas comuns da adolescência amor, amizade, aceitação e rejeição."
+      descharry5="Em Harry Potter e a Ordem da Fênix, o quinto livro da série, Harry, aos 15 anos, retorna a Hogwarts para o seu quinto ano, onde enfrenta a dúvida sobre a volta de Voldemort, a criação de uma nova disciplina (Defesa Contra as Artes das Trevas), e a descoberta de uma organização secreta liderada por Dumbledore, a Ordem da Fênix, que luta contra as trevas. O livro também explora a vida pessoal de Harry, como a pressão da mídia, os desafios da adolescência e o desenvolvimento de seus relacionamentos. "
+      descharry6="'Harry Potter e o enigma do príncipe' dá continuidade à saga do jovem bruxo Harry Potter a partir do ponto em que o livro anterior parou - o momento em que fica provado que o poder de Voldemort e dos Comensais da Morte, seus seguidores, cresce mais a cada dia, em meio à batalha entre o bem e o mal. A onda de terror provocada pelo Lorde das Trevas estaria afetando, até mesmo, o mundo dos trouxas (não-bruxos), e sendo agravada pela ação dos dementadores, criaturas mágicas aterrorizantes que 'sugam' a esperança e a felicidade das pessoas. Harry, que acabou de completar 16 anos, parte rumo ao sexto ano na Escola de Magia e Bruxaria de Hogwarts, animado e ao mesmo tempo apreensivo com a perspectiva de ter aulas particulares com o professor Dumbledore, o diretor da escola e o bruxo mais respeitado em toda comunidade mágica. Harry, longe de ser aquele menino magricela que vivia no quarto debaixo da escada na casa dos tios trouxas, é um dos principais nomes entre aqueles que lutam contra Voldemort, e se vê cada vez mais isolado à medida que os rumores de que ele é O Eleito - o único capaz de derrotar o Lorde das Trevas, se espalham pelo mundo dos bruxos. Dois atentados contra a vida de estudantes, a certeza de Harry quanto ao envolvimento de Draco Malfoy com os Comensais da Morte e o comportamento de Snape, suspeito como sempre, adicionam ainda mais tensão ao já inquietante período. Apesar de tudo isso, Harry e os amigos são adolescentes típicos - dividem tarefas escolares e dormitórios bagunçados, correm das aulas para os treinos de quadribol, e namoram."
+      descharry7="Harry Potter está prestes a fazer 17 anos, mas, ao contrário das outras vezes, não irá para Hogwarts após seu aniversário. Agora, escoltado por uma verdadeira brigada de bruxos, ele precisa fugir, antes que Voldemort o encontre. Esse ingresso brusco na vida adulta marca o início da aventura do jovem bruxo no último livro da série, Harry Potter e as Relíquias da Morte, que chegou às livrarias do país ao primeiro minuto do dia 10 de novembro de 2007, com tiragem inicial de 400 mil exemplares, pela Editora Rocco.A edição em inglês de Harry Potter e as Relíquias da Morte saiu no dia 21 de julho, provocando uma corrida dos fãs às livrarias. Só nos EUA, foram vendidos 8,3 milhões de exemplares do livro nas primeiras 24 horas, batendo recorde de vendas e superando o antecessor, Harry Potter e o enigma do Príncipe, que vendeu 6,9 milhões de exemplares no mesmo período. Ao total, os seis primeiros volumes da série venderam 325 milhões de exemplares, em 64 línguas, em todo o mundo, 2,5 milhões apenas no Brasil.Em Harry Potter e as Relíquias da Morte, o encontro inevitável com Lord Voldemort não pode mais ser adiado. Harry, no entanto, precisa ganhar tempo para encontrar as Horcruxes que ainda estão faltando. E, pelo caminho, descobrir o que são afinal as Relíquias da Morte e como ele pode usá-las contra o Lorde das Trevas. Seguindo as poucas pistas deixadas por Dumbledore, Harry conta apenas com a ajuda dos leais amigos Rony e Hermione.Juntos, eles percorrem lugares nunca visitados, descobrem histórias nebulosas sobre pessoas queridas e acabam por desvendar mistérios que os incomodavam há muito tempo. Enquanto Harry, Rony e Hermione vagam por diferentes lugares em busca de pistas, J. K. Rowling vai revelando aspectos até então desconhecidos sobre os principais personagens.Em sua última e derradeira aventura, Harry não é exposto apenas a batalhas. Ele precisa superar traições, surpresas e, mais do que nunca, aprender a lidar com os próprios sentimentos. Como em todos os livros da série, o amor e a amizade são elementos-chave para a trama. Em Harry Potter e as Relíquias da Morte, J. K. Rowling leva o leitor por uma trilha de suspense, com sustos ininterruptos até a última página, quando entrega, por completo, toda a verdade e conclui os passos de herói de Harry Potter na maior saga bruxa de todos os tempos."
+      descSel="Muitas garotas sonham em ser princesas, mas este não é o caso de America Singer. Ela topa se inscrever na Seleção só para agradar a mãe, certa de que não será sorteada para participar da competição em que o príncipe escolherá sua futura esposa. Mas é claro que depois disso sua vida nunca mais será a mesma... Para trinta e cinco garotas, a Seleção é a chance de uma vida. É a oportunidade de ser alçada a um mundo de vestidos deslumbrantes e joias valiosas. De morar em um palácio, conquistar o coração do belo príncipe Maxon e um dia ser a rainha. America Singer, no entanto, estar entre as Selecionadas é um pesadelo. Significa deixar para trás o rapaz que ama. Abandonar sua família e seu lar para entrar em uma disputa ferrenha por uma coroa que ela não quer. E viver em um palácio sob a ameaça constante de ataques rebeldes. Então America conhece pessoalmente o príncipe - e percebe que a vida com que sempre sonhou talvez não seja nada comparada ao futuro que nunca tinha ousado imaginar."
+      descSel2="A vida no palácio não era tão ruim quanto America imaginava. Ou melhor: com todos os mimos e privilégios que estava tendo, ela já mal se lembrava de como era pertencer à casta Cinco. Ser Um, em compensação, era fácil: suas criadas eram costureiras talentosíssimas e faziam vestidos maravilhosos; os banquetes e as festas que frequentava eram incrivelmente divertidos; e o conforto em que vivia agora seria impensável alguns meses atrás. Além de tudo, quando sentia saudade de casa, tinha Aspen por perto. Ele era compreensivo, companheiro e tinha decidido colocar sua vida em perigo por ela - afinal, o que aconteceria se alguém descobrisse que, além de guarda do palácio, era ex-namorado de uma das candidatas? Era com Aspen que America contava nas horas mais difíceis. Por outro lado, o príncipe Maxon era atraente, bondoso, carinhoso e - o mais importante - desejava America mais do que qualquer outra garota da Elite. Mas, além de estar com o coração secretamente dividido, também era difícil lidar com o fato de que aceitar Maxon significava ter que aceitar uma coroa. America não tinha certeza se gostaria de ser uma princesa. Apesar da vida glamorosa, havia tantas coisas com as quais ela não concordava e que permaneciam sem explicação: por que o palácio sofria tantos ataques rebeldes? O que era reivindicado? Por que os castigos aos infratores tinham de ser tão violentos? O que estava por trás daquele regime de castas tão cruel? O tempo está acabando e as dúvidas de America só aumentam."
+      descSel3="America era a candidata mais improvável da Seleção: se inscreveu por insistência da mãe e aceitou participar da competição só para se afastar de Aspen, um garoto que partira seu coração. Ao conhecer melhor o príncipe, porém, surgiu uma amizade que logo se transformou em algo mais... No entanto, toda vez que Maxon parecia estar certo de que escolheria America, algum obstáculo fazia os dois se afastarem. Um desses obstáculos era Aspen, que passou a ocupar o posto de guarda no palácio e estava decidido a reconquistar a namorada. Em encontros proibidos, ele a reconfortava em meio àquele mundo de luxos e rivalidades. Com essas idas e vindas, America perdeu um pouco de espaço no coração do príncipe, lugar que foi prontamente ocupado por outra concorrente. Para completar, o rei odiava America e a considerava a pior opção para o filho. Assim, tentava sabotar a relação dos dois, inventando mentiras e colocando a garota em prova a todo instante. Agora, para conseguir o que deseja, America precisa cortar os laços com Aspen, conquistar o povo de Illéa e conseguir novos aliados políticos. Mas tudo pode sair do controle quando ela começa a questionar o sistema de castas e a estratégia usada para lidar com os ataques rebeldes..."
+      descSel4="Vinte anos atrás, America Singer participou da Seleção e conquistou o coração do príncipe Maxon. Agora chegou a vez da princesa Eadlyn, filha do casal. Prestes a conhecer os trinta e cinco pretendentes que irão disputar sua mão numa nova Seleção, ela não tem esperanças de viver um conto de fadas como o de seus pais… Mas assim que a competição começa, ela percebe que encontrar seu príncipe encantado talvez não seja tão impossível quanto parecia."
+      descSel5="Às vezes, se apaixonar é a atitude mais corajosa que alguém pode ter. Em A herdeira, o universo de A Seleção entrou numa nova era. Vinte anos se passaram desde que America Singer e o príncipe Maxon se apaixonaram, e a filha do casal é a primeira princesa a passar por sua própria Seleção. Ela não acreditava que encontraria, tal como seus pais, um amor verdadeiro durante o concurso. Mas alguns candidatos conseguem abrir rachaduras nas muralhas que Eadlyn construiu em volta de si mesma, principalmente de seu coração. Aos poucos, os Selecionados se tornam seu porto seguro, ao mesmo tempo que a fazem enxergar como é a vida fora da bolha em que vive. E ela realmente está precisando: os acontecimentos no palácio obrigam Eadlyn a assumir cada vez mais responsabilidades no governo, e a garota não tem escolha a não ser encarar a rejeição do público. Seu maior desafio é se aproximar do povo, mostrando que se importa e que tem capacidade de governar. Tudo isso enquanto a pressão para escolher um marido só aumenta ― e um garoto em particular começa a tomar conta de seu coração."
+      desccomo="Aos 26 anos, Louisa Clark não tem muitas ambições. Ela mora com os pais, a irmã mãe solteira, o sobrinho pequeno e um avô que precisa de cuidados constantes desde que sofreu um derrame. Trabalha como garçonete num café, um emprego que não paga muito, mas ajuda nas despesas, e namora Patrick, um triatleta que não parece interessado nela. Não que ela se importe. Quando o café fecha as portas, Lou é obrigada a procurar outro emprego. Sem muitas qualificações, consegue trabalho como cuidadora de um tetraplégico. Will Traynor, de 35 anos, é inteligente, rico e mal-humorado. Preso a uma cadeira de rodas depois de um acidente de moto, o antes ativo e esportivo Will desconta toda a sua amargura em quem estiver por perto. Tudo parece pequeno e sem graça para ele, que sabe exatamente como dar um fim a esse sentimento. O que Will não sabe é que Lou está prestes a trazer cor a sua vida. E nenhum dos dois desconfia de que irá mudar para sempre a história um do outro. Como eu era antes de você é uma história de amor e uma história de família, mas acima de tudo é uma história sobre a coragem e o esforço necessários para retomar a vida quando tudo parece acabado."
+      descdepois="Com mais de 5 milhões de exemplares vendidos em todo o mundo, Como eu era antes de você conta a história do relacionamento entre Will Traynor e Louisa Clark, cujo fim trágico deixou de coração apertado os milhares de fãs da autora Jojo Moyes. Em Depois de você, Lou ainda não superou a perda de Will. Morando em um flat em Londres, ela trabalha como garçonete em um pub no aeroporto. Certo dia, após beber muito, Lou cai do terraço. O terrível acidente a obriga voltar para a casa de sua família, mas também a permite conhecer Sam Fielding, um paramédico cujo trabalho é lidar com a vida e a morte, a única pessoa que parece capaz de compreendê-la. Ao se recuperar, Lou sabe que precisa dar uma guinada na própria história e acaba entrando para um grupo de terapia de luto. Os membros compartilham sabedoria, risadas, frustrações e biscoitos horrorosos, além de a incentivarem a investir em Sam. Tudo parece começar a se encaixar, quando alguém do passado de Will surge e atrapalha os planos de Lou, levando-a a um futuro totalmente diferente. “Moyes, como David Nicholls, possui o talento invejável de fazer o leitor rir diante das circunstâncias mais tristes. Certamente existe espaço para um terceiro livro!” The Guardian"
+      descainda="Sequência dos romances Como eu era antes de você e Depois de você, que arrebataram o coração de milhares de fãs, Ainda sou eu conta, pela perspectiva delicada e bem-humorada de Lou Clark, uma história comovente sobre escolhas, lealdade e esperança. Lou Clark chega em Nova York pronta para recomeçar a vida, confiante de que pode abraçar novas aventuras e manter seu relacionamento a distância. Ela é jogada no mundo dos super-ricos Gopnik ― Leonard e a esposa bem mais nova, e um sem-fim de empregados e puxa-sacos. Lou está determinada a extrair o máximo dessa experiência, por isso se lança no trabalho e, antes que perceba, está inserida na alta sociedade nova-iorquina, onde conhece Joshua Ryan, um homem que traz consigo um sopro do passado de Lou. Enquanto tenta manter os dois lados de seu mundo unidos, ela tem que guardar segredos que não são seus e que podem mudar totalmente sua vida. E, quando a situação atinge um ponto crítico, ela precisa se perguntar: Quem é Louisa Clark? E como é possível reconciliar um coração dividido? Sequência dos romances Como eu era antes de você e Depois de você, que arrebataram o coração de milhares de fãs, Ainda sou eu conta, pela perspectiva delicada e bem-humorada de Lou Clark, uma história comovente sobre escolhas, lealdade e esperança."
+      descestrela="Hazel é uma paciente terminal. Ainda que, por um milagre da medicina, seu tumor tenha encolhido bastante ― o que lhe dá a promessa de viver mais alguns anos ―, o último capítulo de sua história foi escrito no momento do diagnóstico. Mas em todo bom enredo há uma reviravolta, e a de Hazel se chama Augustus Waters, um garoto bonito que certo dia aparece no Grupo de Apoio a Crianças com Câncer. Juntos, os dois vão preencher o pequeno infinito das páginas em branco de suas vidas. Inspirador, corajoso, irreverente e brutal, A culpa é das estrelas é a obra mais ambiciosa e emocionante de John Green, sobre a alegria e a tragédia que é viver e amar."
+      descaneis="O volume inicial de O Senhor dos Anéis, lançado originalmente em julho de 1954, foi o primeiro grande épico de fantasia moderno, conquistando milhões de leitores e se tornando o padrão de referência para todas as outras obras do gênero até hoje. A imaginação prodigiosa de J.R.R. Tolkien e seu conhecimento profundo das antigas mitologias da Europa permitiram que ele criasse um universo tão complexo e convincente quanto o mundo real. A Sociedade do Anel começa no Condado, a região rural do oeste da Terra-média onde vivem os diminutos e pacatos hobbits. Bilbo Bolseiro, um dos raros aventureiros desse povo, cujas peripécias foram contadas em O Hobbit, resolve ir embora do Condado e deixa sua considerável herança nas mãos de seu jovem parente Frodo. O mais importante legado de Bilbo é o anel mágico que costumava usar para se tornar invisível. No entanto, o mago Gandalf, companheiro de aventuras do velho hobbit, revela a Frodo que o objeto é o Um Anel, a raiz do poder demoníaco de Sauron, o Senhor Sombrio, que deseja escravizar todos os povos da Terra-média. A única maneira de eliminar a ameaça de Sauron é destruir o Um Anel nas entranhas da própria montanha de fogo onde foi forjado. A revelação faz com que Frodo e seus companheiros hobbits Sam, Merry e Pippin deixem a segurança do Condado e iniciem uma perigosa jornada rumo ao leste. Ao lado de representantes dos outros Povos Livres que resistem ao Senhor Sombrio, eles formam a Sociedade do Anel. Alguém uma vez disse que o mundo dos leitores de língua inglesa se divide entre os que já leram O Senhor dos Anéis e os que um dia lerão o livro. Com esta nova tradução da obra, o fascínio dessa aventura atemporal ficará ainda mais evidente para os leitores brasileiros, tanto os que já conhecem a saga como os que estão prestes a descobrir seu encanto."
+      descaneis2="O segundo volume de O Senhor dos Anéis, mais importante épico de fantasia moderno, narra os caminhos separados seguidos pelos membros da Sociedade do Anel em sua luta para deter Sauron, o Senhor Sombrio da terra de Mordor, e destruir o Um Anel, no qual está contida a maior parte do poder do tirano demoníaco imaginado por J.R.R. Tolkien. Um ataque-surpresa pôs fim à jornada conjunta da Sociedade do Anel. De um lado, o trio formado pelo elfo Legolas, pelo anão Gimli e por Aragorn, herdeiro da realeza dos Homens, tenta resgatar os jovens hobbits Merry e Pippin, capturados por guerreiros-órquicos. A busca pelos companheiros perdidos levará os três a confrontar os cavaleiros do reino de Rohan e o mago renegado Saruman, que também deseja o Um Anel para si. Enquanto isso, do outro lado das montanhas, Frodo e Sam buscam uma maneira de entrar em Mordor e chegar até a montanha onde o Anel foi forjado, único lugar onde é possível destruí-lo. Para isso, acabam recebendo a ajuda de seu mais improvável aliado: Gollum, a criatura que chegou a ter o Anel sob seu poder durante centenas de anos e que ainda é devorada, em corpo e alma, pelo desejo de voltar a possuí-lo. Com cenas que mesclam o heroico e o intimista, o sublime e o cômico, As Duas Torres abriga algumas das criações mais inesquecíveis da imaginação de J.R.R. Tolkien, como os gigantescos Ents e a cultura nobre e belicosa do povo de Rohan."
+      descaneis3="A guerra entre os Povos Livres da Terra-média e Sauron, o Senhor Sombrio da terra de Mordor, chega a seu clímax neste terceiro volume do romance O Senhor dos Anéis. As batalhas grandiosas que estão prestes a acontecer, no entanto, são apenas o pano de fundo para o verdadeiro drama: a missão quase suicida dos hobbits Frodo e Sam, que tentam destruir o Um Anel, fonte do poder de Sauron, infiltrando-se no coração do território do Inimigo. Em O Retorno do Rei, acompanhamos o mago Gandalf e o hobbit Pippin em sua visita à a majestosa cidade de Minas Tirith, que já foi o principal baluarte dos Homens contra a ameaça de Sauron, mas que está prestes a sucumbir diante da força avassaladora do Senhor Sombrio. Outros membros da Sociedade do Anel se juntam a Aragorn, herdeiro da longa linhagem dos reis de Minas Tirith, na tentativa de evitar que a antiga capital do reino de Gondor seja destruída. Nas fronteiras de Mordor, Sam resgata Frodo, e os dois hobbits partem para o último estágio de sua jornada rumo ao Monte da Perdição, uma jornada que testará os limites do corpo e da mente dos pequenos heróis. O livro inclui ainda numerosos apêndices, nos quais Tolkien explora detalhes da história, das línguas, dos alfabetos e até dos calendários de seu mundo ficcional."
+      desc1984="Winston, herói de 1984, último romance de George Orwell, vive aprisionado na engrenagem totalitária de uma sociedade completamente dominada pelo Estado, onde tudo é feito coletivamente, mas cada qual vive sozinho. Ninguém escapa à vigilância do Grande Irmão, a mais famosa personificação literária de um poder cínico e cruel ao infinito, além de vazio de sentido histórico. De fato, a ideologia do Partido dominante em Oceânia não visa nada de coisa alguma para ninguém, no presente ou no futuro. O'Brien, hierarca do Partido, é quem explica a Winston que só nos interessa o poder em si. Nem riqueza, nem luxo, nem vida longa, nem felicidade: só o poder pelo poder, poder puro. Quando foi publicada em 1949, essa assustadora distopia datada de forma arbitrária num futuro perigosamente próximo logo experimentaria um imenso sucesso de público. Seus principais ingredientes - um homem sozinho desafiando uma tremenda ditadura; sexo furtivo e libertador; horrores letais - atraíram leitores de todas as idades, à esquerda e à direita do espectro político, com maior ou menor grau de instrução. À parte isso, a escrita translúcida de George Orwell, os personagens fortes, traçados a carvão por um vigoroso desenhista de personalidades, a trama seca e crua e o tom de sátira sombria garantiram a entrada precoce de 1984 no restrito panteão dos grandes clássicos modernos."
+      descanimal="Escrita em plena Segunda Guerra Mundial e publicada em 1945 depois de ter sido rejeitada por várias editoras, essa pequena narrativa causou desconforto ao satirizar ferozmente a ditadura stalinista numa época em que os soviéticos ainda eram aliados do Ocidente na luta contra o eixo nazifascista. De fato, são claras as referências: o despótico Napoleão seria Stálin, o banido Bola-de-Neve seria Trotsky, e os eventos políticos - expurgos, instituição de um estado policial, deturpação tendenciosa da História - mimetizam os que estavam em curso na União Soviética. Com o acirramento da Guerra Fria, as mesmas razões que causaram constrangimento na época de sua publicação levaram A revolução dos bichos a ser amplamente usada pelo Ocidente nas décadas seguintes como arma ideológica contra o comunismo. O próprio Orwell, adepto do socialismo e inimigo de qualquer forma de manipulação política, sentiu-se incomodado com a utilização de sua fábula como panfleto. Depois das profundas transformações políticas que mudaram a fisionomia do planeta nas últimas décadas, a pequena obra-prima de Orwell pode ser vista sem o viés ideológico reducionista. Mais de sessenta anos depois de escrita, ela mantém o viço e o brilho de uma alegoria perene sobre as fraquezas humanas que levam à corrosão dos grandes projetos de revolução política. É irônico que o escritor, para fazer esse retrato cruel da humanidade, tenha recorrido aos animais como personagens. De certo modo, a inteligência política que humaniza seus bichos é a mesma que animaliza os homens. Escrito com perfeito domínio da narrativa, atenção às minúcias e extraordinária capacidade de criação de personagens e situações, A revolução dos bichos combina de maneira feliz duas ricas tradições literárias: a das fábulas morais, que remontam a Esopo, e a da sátira política, que teve talvez em Jonathan Swift seu representante máximo."
+</script>
+
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/lagrimas3.png" class="slide active" onclick="abrirDetalhes('O fabricante de lágrimas','img/lagrimas3.png', descLivroLagrimas)">
+    <img src="img/lagrimas1.png" class="slide">
+    <img src="img/lagrimas2.jpg" class="slide">
+
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">O fabricante de lágrimas</h2>
+    <p class="autor-edicao">Edição Português | por <strong>Erin Doom</strong> | 12 mar. 2023</p>
+    <p class="avaliacao">4,8 
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(2 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 43,95</span>
+      <span class="preco-antigo">De: R$ 59,90</span>
+    </div>
+    
+
+    <div class="botoes">
+      <a href="linkLivros/O Fabricante de Lágrimas.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+      </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/eassimqueacaba.png" class="slide active" onclick="abrirDetalhes('É Assim que acaba','img/eassimqueacaba.png', descLivroAssimqueAcaba)">
+    <img src="img/Acaba.png" class="slide">
+    <img src="img/Acaba2.png" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">É Assim que acaba</h2>
+    <p class="autor-edicao">Edição Português | por <strong>Colleen Hoover</strong> | 18 jan. 2018</p>
+    <p class="avaliacao">4,9
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(7 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 38,95</span>
+      <span class="preco-antigo">De: R$ 45,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/éAssimQueAcaba.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/coracaoo.png" class="slide active" onclick="abrirDetalhes('Eu e Esse Meu Coração','img/coracaoo.png', descLivroCorracao)">
+    <img src="img/coracao.png" class="slide">
+    <img src="img/coracao2.png" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">Eu e Esse meu Coração</h2>
+    <p class="autor-edicao">Edição Português | por <strong> Denise de Carvalho Rocha </strong> | 2 out. 2018</p>
+    <p class="avaliacao">4,9
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(6 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 41,08</span>
+      <span class="preco-antigo">De: R$ 50,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/EuEsseMeuCoracao.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/orgulhopre.png" class="slide active" onclick="abrirDetalhes('Orgulho e Preconceito','img/orgulhopre.png', descOrgulho)">
+    <img src="img/orgulhopre2.png" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">Orgulho e Preconceito</h2>
+    <p class="autor-edicao">Edição Português | por <strong> Jane Austen  </strong> | 16 set. 2021</p>
+    <p class="avaliacao">4,9
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(9 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 24,82</span>
+      <span class="preco-antigo">De: R$ 30,52</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/Orgulho e preconceito - Jane Austen.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/imper2.png" class="slide active" onclick="abrirDetalhes('Todas as suas (im)perfeições','img/imper2.png', descImperfeicoes)">
+    <img src="img/,Imper.png" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">Todas as suas (im)perfeições</h2>
+    <p class="autor-edicao">Edição Português | por <strong> Colleen Hoover  </strong> | 24 jul. 2019</p>
+    <p class="avaliacao">4,4
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(8 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 32,95</span>
+      <span class="preco-antigo">De: R$ 59,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/Todas as Suas Imperfeições - Collen Hoover.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/verity.png" class="slide active" onclick="abrirDetalhes('Verity','img/verity.png', descVerity)">
+    <img src="img/verity2.png" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">Verity</h2>
+    <p class="autor-edicao">Edição Português | por <strong> Colleen Hoover  </strong> | 09 mar. 2020</p>
+    <p class="avaliacao">4,9
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(10 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 42,15</span>
+      <span class="preco-antigo">De: R$ 59,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/Verity - Colleen Hoover.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/harryF.jpg" class="slide active" onclick="abrirDetalhes('Harry Potter e a Pedra Filosofal','img/harryF.jpg', descharry1)">
+    <img src="img/harryT.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">Harry Potter e a Pedra Filosofal: 1</h2>
+    <p class="autor-edicao">Edição Português | por <strong> J.K. Rowling  </strong> | 7 abr. 2000</p>
+    <p class="avaliacao">5,0
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(15 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 44,32</span>
+      <span class="preco-antigo">De: R$ 64,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/Harry Potter e a Pedra Filosofal - J.K. Rowling.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/harry2F.jpg" class="slide active" onclick="abrirDetalhes('Harry Potter e a Câmara Secreta','img/harry2F.jpg', descharry2)">
+    <img src="img/harry2T.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">Harry Potter e a Câmara Secreta: 2</h2>
+    <p class="autor-edicao">Edição Português | por <strong> J.K. Rowling  </strong> | 15 agosto. 2000</p>
+    <p class="avaliacao">4,9
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(14 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 45,40</span>
+      <span class="preco-antigo">De: R$ 64,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/Harry Potter e a Câmara Secreta - J.K. Rowling.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/harry3F.jpg" class="slide active" onclick="abrirDetalhes('Harry Potter e o Prisioneiro de Azkaban','img/harry3F.jpg', descharry3)">
+    <img src="img/harry3T.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">Harry Potter e o Prisioneiro de Azkaban: 3</h2>
+    <p class="autor-edicao">Edição Português | por <strong> J.K. Rowling  </strong> | 28 nov. 2000</p>
+    <p class="avaliacao">4,9
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(20 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 54,47</span>
+      <span class="preco-antigo">De: R$ 74,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/Harry Potter e o prisioneiro de Azkaban - J.K. Rowling.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/harry4F.jpg" class="slide active" onclick="abrirDetalhes('Harry Potter e o Cálice de Fogo','img/harry4F.jpg', descharry4)">
+    <img src="img/harry4T.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">Harry Potter e o Cálice de Fogo: 4</h2>
+    <p class="autor-edicao">Edição Português | por <strong> J.K. Rowling  </strong> | 08 jun. 2001</p>
+    <p class="avaliacao">4,9
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(21 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 63,50</span>
+      <span class="preco-antigo">De: R$ 99,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/Harry Potter e o Cálice de Fogo - J.K. Rowling.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/harry5F.jpg" class="slide active" onclick="abrirDetalhes('Harry Potter e a Ordem da Fênix','img/harry5F.jpg', descharry5)">
+    <img src="img/harry5T.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">Harry Potter e a Ordem da Fênix: 5</h2>
+    <p class="autor-edicao">Edição Português | por <strong> J.K. Rowling  </strong> | 29 nov. 2003</p>
+    <p class="avaliacao">4,9
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(19 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 69,90</span>
+      <span class="preco-antigo">De: R$ 109,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/Harry Potter e a Ordem da Fênix - J.K. Rowling.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/harry6F.jpg" class="slide active" onclick="abrirDetalhes('Harry Potter e o Enigma do Príncipe','img/harry6F.jpg', descharry6)">
+    <img src="img/harry6T.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">Harry Potter e o Enigma do Príncipe: 6</h2>
+    <p class="autor-edicao">Edição Português | por <strong> J.K. Rowling  </strong> | 26 nov. 2005</p>
+    <p class="avaliacao">4,9
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(14 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 60,30</span>
+      <span class="preco-antigo">De: R$ 84,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/Harry Potter e o enigma do Principe - J.K. Rowling.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/harry7F.jpg" class="slide active" onclick="abrirDetalhes('Harry Potter e as Relíquias da Morte','img/harry7F.jpg', descharry7)">
+    <img src="img/harry7T.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">Harry Potter e as Relíquias da Morte: 7</h2>
+    <p class="autor-edicao">Edição Português | por <strong> J.K. Rowling  </strong> | 10 nov. 2007</p>
+    <p class="avaliacao">4,9
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(12 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 66,01</span>
+      <span class="preco-antigo">De: R$ 94,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/Harry Potter e as Relíquias da Morte - J.K. Rowling.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/selecao.jpg" class="slide active" onclick="abrirDetalhes('A Seleção','img/selecao.jpg', descSel)">
+    <img src="img/selecaoT.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">A Seleção</h2>
+    <p class="autor-edicao">Edição Português | por <strong> Kiera Cass </strong> | 17 set. 2012</p>
+    <p class="avaliacao">4,9
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(20 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 39,76</span>
+      <span class="preco-antigo">De: R$ 64,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/selecao, A - Kiera Cass.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/selecao2.jpg" class="slide active" onclick="abrirDetalhes('A Elite','img/selecao2.jpg', descSel2)">
+    <img src="img/selecao2T.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">A Elite</h2>
+    <p class="autor-edicao">Edição Português | por <strong> Kiera Cass </strong> | 19 abr. 2013</p>
+    <p class="avaliacao">4,8
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(16 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 44,81</span>
+      <span class="preco-antigo">De: R$ 64,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/elite, A - Kiera Cass.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/selecao3.jpg" class="slide active" onclick="abrirDetalhes('A escolha','img/selecao3.jpg', descSel3)">
+    <img src="img/selecao3T.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">A escolha</h2>
+    <p class="autor-edicao">Edição Português | por <strong> Kiera Cass </strong> | 22 abr. 2014</p>
+    <p class="avaliacao">4,8
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(15 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 43,07</span>
+      <span class="preco-antigo">De: R$ 64,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/Escolha, A - Kiera Cass.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/selecao4.jpg" class="slide active" onclick="abrirDetalhes('A herdeira','img/selecao4.jpg', descSel4)">
+    <img src="img/selecao4T.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">A herdeira</h2>
+    <p class="autor-edicao">Edição Português | por <strong> Kiera Cass </strong> | 17 abr. 2015</p>
+    <p class="avaliacao">4,6
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(7 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 39,57</span>
+      <span class="preco-antigo">De: R$ 64,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/herdeira, A - Kiera Cass.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/selecao5.jpg" class="slide active" onclick="abrirDetalhes('A Coroa','img/selecao5.jpg', descSel5)">
+    <img src="img/selecao5T.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">A Coroa</h2>
+    <p class="autor-edicao">Edição Português | por <strong> Kiera Cass </strong> | 26 abr. 2016</p>
+    <p class="avaliacao">4,6
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(6 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 40,00</span>
+      <span class="preco-antigo">De: R$ 64,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/coroa, A - Kiera Cass.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/comoF.jpg" class="slide active" onclick="abrirDetalhes('Como eu era antes de você','img/comoF.jpg', desccomo)">
+    <img src="img/comoT.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">Como eu era antes de você</h2>
+    <p class="autor-edicao">Edição Português | por <strong> Jojo Moyes </strong> | 09 abr. 2013</p>
+    <p class="avaliacao">4,7
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(9 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 43,10</span>
+      <span class="preco-antigo">De: R$ 59,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/Como eu era antes de você.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/depoisF_.jpg" class="slide active" onclick="abrirDetalhes('Depois de você','img/depoisF_.jpg', descdepois)">
+    <img src="img/depoisT.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">Depois de você</h2>
+    <p class="autor-edicao">Edição Português | por <strong> Jojo Moyes </strong> | 15 jan. 2016</p>
+    <p class="avaliacao">4,6
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(7 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 43,10</span>
+      <span class="preco-antigo">De: R$ 59,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/Depois de você .pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/aindaF.jpg" class="slide active" onclick="abrirDetalhes('Ainda sou eu','img/aindaF.jpg', descainda)">
+    <img src="img/aindaT.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">Ainda sou eu</h2>
+    <p class="autor-edicao">Edição Português | por <strong> Jojo Moyes </strong> | 8 fev. 2018</p>
+    <p class="avaliacao">4,8
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(6 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 50,30</span>
+      <span class="preco-antigo">De: R$ 69,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/Ainda sou eu .pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/estrelaF.jpg" class="slide active" onclick="abrirDetalhes('A culpa é das estrelas','img/estrelaF.jpg', descestrela)">
+    <img src="img/estrelaT.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">A culpa é das estrelas</h2>
+    <p class="autor-edicao">Edição Português | por <strong> John Green </strong> | 27 out. 2014</p>
+    <p class="avaliacao">4,9
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(5 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 43,10</span>
+      <span class="preco-antigo">De: R$ 59,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/A Culpa É Das Estrelas.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/aneisF.jpg" class="slide active" onclick="abrirDetalhes('O Senhor dos Anéis: A Sociedade do Anel','img/aneisF.jpg', descaneis)">
+    <img src="img/aneisT.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">O Senhor dos Anéis: A Sociedade do Anel</h2>
+    <p class="autor-edicao">Edição Português | por <strong> Ronald Kyrmse </strong> | 25 nov. 2019</p>
+    <p class="avaliacao">4,8
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(3 mil)</span>
+    </p>
+    <p class="formato">Capa dura</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 44,10</span>
+      <span class="preco-antigo">De: R$ 69,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/Box Trilogia O Senhor dos Aneis - J.R.R. Tolkien.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/aneis2F.jpg" class="slide active" onclick="abrirDetalhes('O Senhor dos Anéis: As duas torres','img/aneis2F.jpg', descaneis2)">
+    <img src="img/aneis2T.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">O Senhor dos Anéis: As duas torres</h2>
+    <p class="autor-edicao">Edição Português | por <strong> Ronald Kyrmse </strong> | 25 nov. 2019</p>
+    <p class="avaliacao">4,8
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(3 mil)</span>
+    </p>
+    <p class="formato">Capa dura</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 44,42</span>
+      <span class="preco-antigo">De: R$ 69,90</span>
+    </div>
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/Box Trilogia O Senhor dos Aneis - J.R.R. Tolkien.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/aneis3F.jpg" class="slide active" onclick="abrirDetalhes('O Senhor dos Anéis: O retorno do rei','img/aneis3F.jpg', descaneis3)">
+    <img src="img/aneis3T.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">O Senhor dos Anéis: O retorno do rei</h2>
+    <p class="autor-edicao">Edição Português | por <strong> Ronald Kyrmse </strong> | 25 nov. 2019</p>
+    <p class="avaliacao">4,5
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(5 mil)</span>
+    </p>
+    <p class="formato">Capa dura</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 49,90</span>
+      <span class="preco-antigo">De: R$ 69,90</span>
+    </div> 
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/Box Trilogia O Senhor dos Aneis - J.R.R. Tolkien.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/1984F.jpg" class="slide active" onclick="abrirDetalhes('1984','img/1984F.jpg', desc1984)">
+    <img src="img/1984T.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">1984</h2>
+    <p class="autor-edicao">Edição Português | por <strong> George Orwell </strong> | 21 jul. 2009</p>
+    <p class="avaliacao">4,8
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(31 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 21,00</span>
+      <span class="preco-antigo">De: R$ 39,90</span>
+    </div> 
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/1984 - Edicao especial - George Orwell.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <!-- Carrossel -->
+  <div class="slider">
+    <img src="img/bichoF.jpg" class="slide active" onclick="abrirDetalhes('A revolução dos bichos: Um conto de fadas','img/bichoF.jpg', descanimal)">
+    <img src="img/bichoT.jpg" class="slide">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <!-- Informações do Produto -->
+  <div class="card-info">
+    <span class="patrocinado">Patrocinado</span>
+    <h2 class="titulo_produto">A revolução dos bichos: Um conto de fadas</h2>
+    <p class="autor-edicao">Edição Português | por <strong> George Orwell </strong> | 10 jan. 2007</p>
+    <p class="avaliacao">4,8
+      <span class="estrelas">★★★★★</span> 
+      <span class="num-avaliacoes">(53 mil)</span>
+    </p>
+    <p class="formato">Capa comum</p>
+
+    <div class="precos">
+      <span class="preco-atual">R$ 19,92</span>
+      <span class="preco-antigo">De: R$ 34,90</span>
+    </div> 
+
+    
+
+    <div class="botoes">
+      <a href="linkLivros/A Revolução dos Bichos - George Orwell.pdf" download>
+      <button class="btn-ebook"> Baixar E-book</button>
+    </a>
+      <button class="btn-comprar"> Adicionar ao carrinho</button>
+    </div>
+  </div>
+</div>
+</div>
+
+    </div> 
+  </section>
+  <footer>
+    <img src="img/logoo.png" alt="Bibliotech"class="logo_footer"/>
+    <p>Encomendas on-line: <a href="https://wa.me/5511941276364"><i class="fa fa-whatsapp"></i></a>(11)-94127-6364 | <a href="https://instagram.com/biaacasellato"><i class="fa fa-instagram"></i></a>@biaacasellato</p>
+   </footer>
+<script>
+    // Para cada slider na página (caso tenha vários produtos)
+    document.querySelectorAll('.slider').forEach(slider => {
+      const slides = slider.querySelectorAll('.slide'); // pega todas as imagens
+      let index = 0; // índice da imagem atual
+    
+      // Função que exibe a imagem com índice "i" e esconde as outras
+      const showSlide = (i) => {
+        slides.forEach((slide, j) => {
+          slide.classList.toggle('active', j === i); // ativa só a imagem atual
+        });
+      };
+    
+      // Quando clicar no botão "next" (seta para direita)
+      slider.querySelector('.next').addEventListener('click', () => {
+        index = (index + 1) % slides.length; // avança circularmente
+        showSlide(index); // mostra a nova imagem
+      });
+    
+      // Quando clicar no botão "prev" (seta para esquerda)
+      slider.querySelector('.prev').addEventListener('click', () => {
+        index = (index - 1 + slides.length) % slides.length; // volta circularmente
+        showSlide(index); // mostra a nova imagem
+      });
+    });
+    </script>
+ 
