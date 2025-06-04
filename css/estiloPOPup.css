@@ -1,0 +1,47 @@
+body {
+    margin:0;
+    border:0;
+    font-family: 'Times new roman';
+}
+.pop_up {
+    background: linear-gradient(135deg, #A1B4C4, #303D4C); 
+    color: #ffffff;
+    padding: 30px;
+    width: 525px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid #ffffff22;
+}
+
+.titulo-produto {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: 'Cambria', serif;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    letter-spacing: 1px;
+}
+
+.imagemP {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+}
+.imagemP:hover {
+    transform: scale(1.03);
+}
+
+.descricaoP {
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: 300;
+}
